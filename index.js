@@ -112,8 +112,8 @@ Use the addReview function below to do the following:
   4. Return the updated array
 */
 
-function addReview(array, name, rating, feedback){
-  reviews.push({name: 'Billy', rating: 2, feedback: 'Lame food!'});
+function addReview(array, feedback, name, rating){
+  reviews.push({feedback: 'Billy', rating: 2, feedback: 'Lame food!'});
   return reviews;
 }
 
