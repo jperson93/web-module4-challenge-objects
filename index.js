@@ -112,12 +112,13 @@ Use the addReview function below to do the following:
   4. Return the updated array
 */
 
-function addReview(array, feedback, name, rating){
-  reviews.push({feedback: 'Billy', rating: 2, feedback: 'Lame food!'});
+
+function addReview(array, name, rating, feedback){
+  array.push({name, rating, feedback});
   return reviews;
 }
 
-console.log(addReview(reviews,'Billy', 2,'Lame food'));
+console.log(addReview(reviews,'Daniela', 5,'great eats!'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
